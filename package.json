@@ -1,11 +1,11 @@
 {
   "name": "@naice/create",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "naice前端脚手架",
   "author": {
-    "name" : "naice",
-    "email" : "370215230@qq.com",
-    "url" : "https://blog.heavenxiu.com"
+    "name": "naice",
+    "email": "370215230@qq.com",
+    "url": "https://blog.heavenxiu.com"
   },
   "license": "MIT",
   "main": "index.js",
