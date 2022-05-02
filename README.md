@@ -14,7 +14,7 @@ npx @naice/create [type] # h5 | react | express | lib
 
 ## 说明
 
-1. web： vite+ts+vue3 移动端开发模板
+1. h5： vite+ts+vue3 移动端开发模板
 2. react： vite+ts+react 开发模板
 3. express： node+express+ts 开发模板
 4. lib：工具库开发模板
