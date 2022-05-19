@@ -1,5 +1,13 @@
 
 
+## [1.1.6](https://github.com/naihe138/naice-create/compare/1.1.5...1.1.6) (2022-05-19)
+
+
+### Features
+
+* git ([058b0df](https://github.com/naihe138/naice-create/commit/058b0df5cd237cc200b50020230c1101075abf8d))
+* vue-组件 ([b4660dc](https://github.com/naihe138/naice-create/commit/b4660dce98c30f9c596718a639c537d6620e4db2))
+
 ## [1.1.5](https://github.com/naihe138/naice-create/compare/1.1.4...1.1.5) (2022-05-02)
 
 ## [1.1.4](https://github.com/naihe138/naice-create/compare/1.1.3...1.1.4) (2022-05-02)
