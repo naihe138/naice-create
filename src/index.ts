@@ -42,6 +42,7 @@ export async function main() {
           { name: 'react', value: 'react' },
           { name: 'express', value: 'express' },
           { name: 'lib库', value: 'lib' },
+          { name: 'vue组件', value: 'vue-component' },
         ],
       },
     ])
