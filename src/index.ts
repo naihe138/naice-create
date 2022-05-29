@@ -106,5 +106,3 @@ export async function main() {
   console.log(green(`\r cd ${projectName}`))
   console.log(green(`\r 安装完成!!!!`))
 }
-
-main()
