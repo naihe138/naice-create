@@ -76,8 +76,8 @@ export async function main() {
       return
     }
   }
-
-  const templateRemote = templateConfig[type];
+  const config = templateConfig[type]
+  const templateRemote = config.repo;
   if (templateRemote) {
     spawnSync(`git clone ${templateRemote} ${projectName}`, {
       stdio: 'inherit',
@@ -91,6 +91,13 @@ export async function main() {
       cwd: path.resolve(cwd, projectName)
     });
     
+    if (config.after) {
+      config.after({
+        cwd: path.resolve(cwd, projectName),
+        type,
+        projectName
+      });
+    }
   } else {
     console.log(red(`当前项目类型下还没有模板`))
     return
@@ -99,3 +106,5 @@ export async function main() {
   console.log(green(`\r cd ${projectName}`))
   console.log(green(`\r 安装完成!!!!`))
 }
+
+main()
